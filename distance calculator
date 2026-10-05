@@ -1,0 +1,28 @@
+import math
+
+# ==========================================
+# PROGRAM: 2D Coordinate Distance Calculator
+# DESCRIPTION: Calculates the Euclidean distance between two points (x1, y1) and (x2, y2).
+# ==========================================
+
+print("--- Distance Calculator between Two Points ---")
+
+# Step 1: Capture the coordinates of the first point
+x1_coord = float(input("Enter x1: "))
+y1_coord = float(input("Enter y1: "))
+
+# Step 2: Capture the coordinates of the second point
+x2_coord = float(input("Enter x2: "))
+y2_coord = float(input("Enter y2: "))
+
+# Step 3: Compute coordinate differences (Delta X and Delta Y)
+delta_x = x2_coord - x1_coord
+delta_y = y2_coord - y1_coord
+
+# Step 4: Apply the distance formula: sqrt(delta_x^2 + delta_y^2)
+# Using standard Python exponents (**) instead of math.pow makes the math expression easier to read
+squared_distance = (delta_x ** 2) + (delta_y ** 2)
+calculated_distance = math.sqrt(squared_distance)
+
+# Step 5: Render the result cleanly formatted to 2 decimal places
+print(f"\nThe distance between the two points is: {calculated_distance:.2f}")
