@@ -1,0 +1,30 @@
+# ==============================================================================
+# GUIDE QUESTIONS ANSWERS
+# ==============================================================================
+
+# What comments did you add, and why?
+# - Added a descriptive top header to declare the program's purpose immediately.
+# - Added step-by-step markers (Steps 1-5) to guide the reader through the data pipeline.
+# - Explained the math calculation blocks so anyone can understand the formula without a math background.
+
+# What variable names or formatting did you improve?
+# - Renamed basic coordinate markers to explicit labels: x1_coord, y1_coord, x2_coord, y2_coord.
+# - Extracted the giant formula into readable step variables: delta_x, delta_y, and calculated_distance.
+# - Swapped out clunky math.pow routines for native Python square operators (** 2) to eliminate nesting.
+
+# What did you include in your README.md file?
+# - A clear title and a brief mathematical summary of what the calculator does.
+# - Direct copy-pasteable terminal instructions on how to boot up and run the script locally.
+# - An isolated text-mockup block showing an expected input and output sample run.
+
+# How did your changes make the program easier to understand?
+# - Eliminating nested parentheses blocks prevents semantic calculation reading errors.
+# - Appending string truncation formatting (:.2f) stops long, messy float outputs from breaking UI alignment.
+# - Strategic empty line structures keep distinct operations neatly organized and easy on the eyes.
+
+# If you worked with a partner or group, how did your team divide the work?
+# - Partner 1 cleaned up the math syntax and broken down variables for better calculation transparency.
+# - Partner 2 injected clear comment markers throughout the logic and compiled the final markdown file.
+
+# What is the link to your GitHub repository?
+# - https://github.com/Niaruu/R22-1FA09-RAGOT/tree/main
